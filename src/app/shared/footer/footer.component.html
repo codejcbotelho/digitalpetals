@@ -1,0 +1,9 @@
+<footer>
+    <app-container>
+        <nav>
+            <ng-container *ngFor="let item of optionsFooter">
+                <a [href]="item.link">{{item.name}}</a>
+            </ng-container>
+        </nav>
+    </app-container>
+</footer>
